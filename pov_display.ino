@@ -35,7 +35,7 @@ void setup() {
 void loop() {
   if(activeBuf != lastActiveBuf) { //keep track of each buffer
     lastActiveBuf=activeBuf;
-    printString("UCSB IEEE", (frameCount%360)); //change this to whatever you want (feel free to get creative and make changing text using strings and framecount)
+    printString("UCSB IEEE", (frameCount%360)); //change to any phrase
   }
 }
 
